@@ -3,3 +3,11 @@
 ################################################################################
 
 /DiversityWorks.TheAdmin.Recipe
+/DiversityWorks.Members/obj
+/DiversityWorks.OrchardCore.Web/bin/Debug/netcoreapp2.2
+/DiversityWorks.OrchardCore.Web/obj/Debug/netcoreapp2.2
+/DiversityWorks.OrchardCore.Web/obj
+/DiversityWorks.TheAdmin
+/DiversityWorks.OrchardCore.Web/App_Data
+/.vs
+/DiversityWorks.Members/bin/Debug/netcoreapp2.2
