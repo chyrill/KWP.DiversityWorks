@@ -1,0 +1,58 @@
+﻿[
+  {
+    "generateSourceMaps": false,
+    "inputs": [
+      "vendor/fontawesome-free/css/all.min.css"
+    ],
+    "output": "wwwroot/vendor/fontawesome-free/css/all.min.css"
+  },
+  {
+    "generateSourceMaps": false,
+    "inputs": [
+      "css/sb-admin-2.min.css"
+    ],
+    "output": "wwwroot/css/sb-admin-2.min.css"
+  },
+  {
+    "generateSourceMaps": false,
+    "inputs": [
+      "vendor/jquery/jquery.min.js"
+    ],
+    "output": "wwwroot/vendor/jquery/jquery.min.js"
+  },
+  {
+    "generateSourceMaps": false,
+    "inputs": [
+      "vendor/bootstrap/js/bootstrap.bundle.min.js"
+    ],
+    "output": "wwwroot/vendor/bootstrap/js/bootstrap.bundle.min.js"
+  },
+  {
+    "generateSourceMaps": false,
+    "inputs": [
+      "vendor/bootstrap/js/bootstrap.bundle.min.js"
+    ],
+    "output": "wwwroot/vendor/bootstrap/js/bootstrap.bundle.min.js"
+  },
+  {
+    "generateSourceMaps": false,
+    "inputs": [
+      "vendor/jquery-easing/jquery.easing.min.js"
+    ],
+    "output": "wwwroot/vendor/jquery-easing/jquery.easing.min.js"
+  },
+  {
+    "generateSourceMaps": false,
+    "inputs": [
+      "js/sb-admin-2.min.js"
+      ],
+    "output": "wwwroot/js/sb-admin-2.min.js"
+  },
+  //{
+  //  "generateSourceMaps": false,
+  //  "inputs": [
+  //    "Assets/scss/TheAdmin.scss"
+  //  ],
+  //  "output": "wwwroot/Styles/TheAdmin.css"
+  //}
+]

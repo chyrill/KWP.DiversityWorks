@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OrchardCore.Theme.Targets" Version="1.0.0-beta3-71077" />
+    <PackageReference Include="OrchardCore.DisplayManagement" Version="1.0.0-beta3-71077" />
+    <PackageReference Include="OrchardCore.ResourceManagement" Version="1.0.0-beta3-71077" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Class1.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\" />
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+</Project>
