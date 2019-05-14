@@ -17,5 +17,9 @@
   <ItemGroup>
     <ProjectReference Include="..\DiversityWorks.TheAdmin\DiversityWorks.TheAdmin.csproj" />
     <ProjectReference Include="..\DiversityWorks.TheAdmin.Recipe\DiversityWorks.TheAdmin.Recipe.csproj" />
+    <ProjectReference Include="..\DiversityWorks.Members\DiversityWorks.Members.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedFileToPublish Remove="App_Data\Sites\Default\DataProtection-Keys\key-3353bcfb-9d84-4874-ade6-ff7ab67af6b0.xml" />
   </ItemGroup>
 </Project>

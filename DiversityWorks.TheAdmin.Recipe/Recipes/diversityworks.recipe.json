@@ -28,6 +28,7 @@
         "OrchardCore.Tenants",
         "OrchardCore.Themes",
         "OrchardCore.Users",
+        "DiversityWorks.Members",
 
         // Themes
         "DiversityWorks.TheAdmin.Recipe",
@@ -37,7 +38,7 @@
     {
       "name": "themes",
       "admin": "DiversityWorks.TheAdmin",
-      "site": "DiversityWorks.TheAdmin.Recipe"
+      "site": "DiversityWorks.TheAdmin"
     },
     {
       "name": "settings",
