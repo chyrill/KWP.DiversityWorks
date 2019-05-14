@@ -1,0 +1,8 @@
+﻿using System; namespace DiversityWorks.TheAdmin.Recipe.Recipes {
+  public class
+  diversityworks {
+    public diversityworks()
+    {
+    }
+  }
+}
