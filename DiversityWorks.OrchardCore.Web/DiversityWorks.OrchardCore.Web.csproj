@@ -16,5 +16,6 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DiversityWorks.TheAdmin\DiversityWorks.TheAdmin.csproj" />
+    <ProjectReference Include="..\DiversityWorks.TheAdmin.Recipe\DiversityWorks.TheAdmin.Recipe.csproj" />
   </ItemGroup>
 </Project>

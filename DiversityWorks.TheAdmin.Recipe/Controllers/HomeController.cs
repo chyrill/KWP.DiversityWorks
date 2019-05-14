@@ -1,10 +1,13 @@
-﻿using System;
+﻿
+using Microsoft.AspNetCore.Mvc;
+
 namespace DiversityWorks.TheAdmin.Recipe.Controllers
 {
-    public class HomeController
+    public class HomeController : Controller
     {
-        public HomeController()
+        public IActionResult Index()
         {
+            return Redirect("/admin");
         }
     }
 }

@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiversityWorks.Members", "D
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{831CBC1E-26A9-4470-8BE1-636C3CBE28FA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Recipe", "Recipe", "{83BF7BD9-FF6D-4C79-8F1E-7EFC530FF847}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiversityWorks.TheAdmin.Recipe", "DiversityWorks.TheAdmin.Recipe\DiversityWorks.TheAdmin.Recipe.csproj", "{3E8ED9A5-0FC8-492A-A9C7-D244E1454822}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,9 +33,14 @@ Global
 		{9725742E-FF29-4CFA-BF98-C7F3065A6F99}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9725742E-FF29-4CFA-BF98-C7F3065A6F99}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9725742E-FF29-4CFA-BF98-C7F3065A6F99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E8ED9A5-0FC8-492A-A9C7-D244E1454822}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E8ED9A5-0FC8-492A-A9C7-D244E1454822}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E8ED9A5-0FC8-492A-A9C7-D244E1454822}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E8ED9A5-0FC8-492A-A9C7-D244E1454822}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{E95176F8-3D01-4B17-B712-FCBDB13CEBC1} = {28865162-8918-4363-8048-BBC4CD38A9C7}
 		{9725742E-FF29-4CFA-BF98-C7F3065A6F99} = {831CBC1E-26A9-4470-8BE1-636C3CBE28FA}
+		{3E8ED9A5-0FC8-492A-A9C7-D244E1454822} = {83BF7BD9-FF6D-4C79-8F1E-7EFC530FF847}
 	EndGlobalSection
 EndGlobal
