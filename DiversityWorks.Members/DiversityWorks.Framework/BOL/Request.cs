@@ -3,24 +3,24 @@ using System.Linq.Expressions;
 
 namespace DiversityWorks.Framework.BOL
 {
-    public class Request<TModel>
+    public class Request<T>
     {
-        public TModel Model { get; set; } 
+        public T Model { get; set; }
 
         public Request()
         {
         }
 
-        public Request(TModel data)
+        public Request(T data)
         {
             this.Model = data;
         }
     }
 
-    public class SearchRequest<TModel>
+    public class SearchRequest<T>
     {
-        public Expression<Func<TModel, bool>> Filter { get; set; }
-        public int Skip { get; set; }
+        public Expression<Func<T,bool>> Filter { get; set; }
         public int Limit { get; set; }
+        public int Skip { get; set; }
     }
 }

@@ -11,4 +11,9 @@
     <Folder Include="DAL\" />
     <Folder Include="BOL\" />
   </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Runtime">
+      <HintPath>..\..\..\..\..\..\..\usr\local\share\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.2.0\ref\netcoreapp2.2\System.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
 </Project>
