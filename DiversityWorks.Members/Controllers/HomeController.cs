@@ -8,5 +8,10 @@ namespace DiversityWorks.Members.Controllers
         {
             return View();
         }
+
+        public IActionResult Details(int? id)
+        {
+            return View();
+        }
     }
 }
